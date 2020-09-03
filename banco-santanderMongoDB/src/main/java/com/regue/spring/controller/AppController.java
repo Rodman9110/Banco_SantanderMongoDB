@@ -37,7 +37,7 @@ public class AppController {
 
 	@GetMapping(path= {"getAllSessionRegistration"})
 	public List<SessionRegistration> getAllSessionRegistration (){
-		System.err.println("getAllSessionRegistrationdfs");
+		System.err.println("getAllSessionRegistrationdfdfs");
 		
 		return sessionRegistrationServices.listar();
 	}
